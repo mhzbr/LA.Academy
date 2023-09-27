@@ -1,0 +1,94 @@
+body {
+    background-color: navy;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex; /*pode ser um flex aqui tbm*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+  }
+  
+  
+  button {
+    background-color: #3498db; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px; 
+  }
+  
+  button:hover {
+    background-color: #2980b9; 
+  }
+  
+  
+  a {
+    color: #3498db; 
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #2980b9; 
+  }
+  
+  
+  section {
+    margin-bottom: 20px; 
+  }
+  
+  
+  #video {
+    margin-top: 20px; 
+  }
+  
+  
+  #fotos img {
+    width: 300px; 
+    height: auto;
+    margin: 10px;
+  }
+  
+  
+  #promocao1, #promocao2 {
+    background-color: #2ecc71; 
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  
+  #carrossel {
+
+    background-color: #3498db; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%; 
+    margin: 0 auto; 
+  }
+  
+  
+  .slider {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+  
+  .slide {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    width: 100%; /
+  }
+  
+  .slide img {
+    width: 100%; 
+  }  
+
+  #contato {
+    margin-bottom: 50px; 
+  }
+  
