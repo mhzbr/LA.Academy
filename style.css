@@ -2,7 +2,7 @@ body {
     background-image: url(Fundo-Preto-com-Azul.png);
     background-size: cover;
     font-family: Arial, sans-serif;
-    display: flex; /*pode ser um flex aqui tbm*/
+    display: block; /*pode ser um flex aqui tbm*/
     flex-direction: column;
     align-items: center;
     justify-content: center;
