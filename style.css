@@ -2,7 +2,7 @@ body {
     background-image: url(Fundo-Preto-com-Azul.png);
     background-size: cover;
     font-family: Arial, sans-serif;
-    display: block; /*pode ser um flex aqui tbm*/
+    display: flex; /*pode ser um flex aqui tbm*/
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -51,6 +51,8 @@ body {
     width: 700px; 
     height: auto;
     margin: 10px;
+    align-items: center;
+    justify-content: center;
   }
   
   #fotosClientes img {
@@ -58,6 +60,8 @@ body {
     width: 500px;
     height: auto;
     margin: 10px;
+    align-items: center;
+    justify-content: center;
 
   }
 
@@ -66,6 +70,8 @@ body {
     background-color: #2ecc71; 
     padding: 20px;
     border-radius: 10px;
+    align-items: center;
+    justify-content: center;  
   }
   
   
@@ -76,6 +82,8 @@ body {
     border-radius: 10px;
     width: 50%; 
     margin: 0 auto; 
+    align-items: center;
+    justify-content: center;
   }
   
   
@@ -83,6 +91,8 @@ body {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
+    align-items: center;
+    justify-content: center;
   }
   
   
