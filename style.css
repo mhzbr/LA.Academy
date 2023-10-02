@@ -48,12 +48,20 @@ body {
   
   
   #fotos img {
-    width: 300px; 
+    width: 700px; 
     height: auto;
     margin: 10px;
   }
   
-  
+  #fotosClientes img {
+
+    width: 500px;
+    height: auto;
+    margin: 10px;
+
+  }
+
+
   #promocao1, #promocao2 {
     background-color: #2ecc71; 
     padding: 20px;
